@@ -30,7 +30,7 @@ def loginuser():
     else:
         try:
             # Using PyMySQL to connect to the database
-            mydb = pymysql.connect(host='localhost', user='root', password='Tanu@0203', database="balaji")
+            mydb = pymysql.connect(host='localhost', user='root', password='your_password', database="database_name")
             mycursor = mydb.cursor()
             print("Connected to Database!!")
         except pymysql.MySQLError as err:
