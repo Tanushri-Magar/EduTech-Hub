@@ -42,7 +42,7 @@ def register():
         else:
             try:
                 # Using PyMySQL to connect to the database
-                mydb = pymysql.connect(host='localhost', user='root', password='Tanu@0203')
+                mydb = pymysql.connect(host='localhost', user='root', password='your_password')
                 mycursor = mydb.cursor()
                 print("Connected to Database!!")
 
@@ -53,10 +53,10 @@ def register():
 
 
             try:
-                command="create database balaji"
+                command="create database database_name"
                 mycursor.execute(command)
 
-                command="use balaji"
+                command="use database_name"
                 mycursor.execute(command)
 
                 command="create table login (user int auto_increment key not null, username varchar(30),Password varchar(100))"
@@ -65,7 +65,7 @@ def register():
 
             except:
                 mycursor.execute("use balaji")
-                mydb = pymysql.connect(host='localhost', user='root', password='Tanu@0203',database="balaji")
+                mydb = pymysql.connect(host='localhost', user='root', password='your_password',database="database_name")
                 mycursor = mydb.cursor()
 
 
