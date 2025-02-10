@@ -15,10 +15,10 @@ Tech Stack:
 🟢 Excel Integration
 🟢 MySQLIntegration
 
-📌 First Client: Balaji Computers
+📌 First Client: Balaji Computers     
 📌 Status: In Development
 
 
-"For inquiries or collaboration, feel free to contact us at pratikc0203@gmail.com or tanumagar2004@gmail.com"
+"For inquiries or collaboration, feel free to contact us at tanumagar2004@gmail.com or pratikc0203@gmail.com"
 
 Let me know if you want a more customized version! 😊
